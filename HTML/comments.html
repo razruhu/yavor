@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Comments</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="comments.js"></script>
+
+
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">YAVOR</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="comments.html">COMMENTS</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content">
+            
+            <div class="comments-section">
+                <form id="comment-form">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <textarea id="comment" placeholder="Your Comment" required></textarea>
+                    <button type="submit">Post Comment</button>
+                </form>
+
+                <h2>Comments:</h2>
+                <ul id="comments-list">
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
